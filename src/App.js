@@ -4,11 +4,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="">
+      <header className="App-header Portfolio">
+       
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello ! This is ᎪᏒᎪᎠhᎪᏁᎪ sᎥᏁᎶh.
+        </p>
+        <p>
+          I'm Fullstack UI developer.
         </p>
         <a
           className="App-link"
