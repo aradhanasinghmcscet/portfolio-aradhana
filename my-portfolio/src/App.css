@@ -6,17 +6,29 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.header {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.App-link {
+.link-item {
+  margin: 0 10px;
+  padding: 10px;
+  color: #09d3ac;
+}
+.link-logo {
+  padding: 10px;
   color: #09d3ac;
 }
