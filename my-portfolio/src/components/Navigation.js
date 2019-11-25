@@ -14,17 +14,16 @@ import {
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+
 const Navigation = () => {
   return (
     <div>
       <AppBar position='static'>
         <Typography variant='title' color='inherit'>
-          <Navbar bg='dark' expand='lg' >
-            <Navbar.Brand href='#home' className='link-logo'>
-              Aradhana Singh Portfolio
-            </Navbar.Brand>
+          <Navbar bg='dark' expand='lg'  className='site-title'>
+            <Navbar.Brand href='#home'>Aradhana Singh Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
-            <Navbar.Collapse id='basic-navbar-nav'>
+            <Navbar.Collapse id='absic-navbar-nav'>
               <Nav className='mr-auto'>
                 <NavLink className='link-item' to='/'>
                   Home
