@@ -5,8 +5,8 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Error from './components/Error';
 import Header from './components/Header';
-import Footer from './components/Footer';
-import logo from './logo.svg';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +19,8 @@ class App extends Component {
             <Route path='/' component={Home} exact />
             <Route path='/About' component={About} />
             <Route path='/Blog' component={Blog} />
+            <Route path='/Portfolio' component={Portfolio} />
+            <Route path='/Contact' component={Contact} />
             <Route component={Error} />
           </Switch>
           {/* <Footer /> */}

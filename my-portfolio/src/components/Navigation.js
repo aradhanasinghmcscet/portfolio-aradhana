@@ -20,7 +20,7 @@ const Navigation = () => {
     <div>
       <AppBar position='static'>
         <Typography variant='title' color='inherit'>
-          <Navbar bg='dark' expand='lg'  className='site-title'>
+          <Navbar bg='dark' expand='lg' className='site-title'>
             <Navbar.Brand href='#home'>Aradhana Singh Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='absic-navbar-nav'>
@@ -33,6 +33,12 @@ const Navigation = () => {
                 </NavLink>
                 <NavLink className='link-item' to='/blog'>
                   Blog
+                </NavLink>
+                <NavLink className='link-item' to='/portfolio'>
+                  Portfolio
+                </NavLink>
+                <NavLink className='link-item' to='/contact'>
+                  Contact
                 </NavLink>
               </Nav>
             </Navbar.Collapse>
