@@ -21,7 +21,7 @@ const Navigation = () => {
       <AppBar position='static'>
         <Typography variant='title' color='inherit'>
           <Navbar bg='dark' expand='lg' className='site-title'>
-            <Navbar.Brand href='#home'>Aradhana Singh Portfolio</Navbar.Brand>
+            <Navbar.Brand href='#home' className='brand'>Aradhana Singh </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='absic-navbar-nav'>
               <Nav className='mr-auto'>
@@ -40,6 +40,9 @@ const Navigation = () => {
                 <NavLink className='link-item' to='/contact'>
                   Contact
                 </NavLink>
+                {/* <NavLink>
+                <div class="sharethis-inline-follow-buttons"></div>
+                </NavLink> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>

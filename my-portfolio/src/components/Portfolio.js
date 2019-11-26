@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className='container'>
       <h1>My Portfolio</h1>
-      <p>Portfolio me page contents goes here !</p>
+      <p>Work in progress........</p>
     </div>
   );
 };
