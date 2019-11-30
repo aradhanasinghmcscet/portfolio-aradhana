@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
-import logo from '../../src/logo.jpg';
+// import logo from '../../src/logo.jpg';
 
 const Header = () => {
   return (
