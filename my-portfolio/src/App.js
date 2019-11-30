@@ -7,7 +7,7 @@ import Error from './components/Error';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import TODO from './components/Todo';
+import Todo from './components/Todo';
 import './App.css';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
             <Route path='/Blog' component={Blog} />
             <Route path='/Portfolio' component={Portfolio} />
             <Route path='/Contact' component={Contact} />
-            <Route path='/TODO' component={TODO} />
+            <Route path='/Todo' component={Todo} />
             <Route component={Error} />
           </Switch>
           {/* <Footer /> */}

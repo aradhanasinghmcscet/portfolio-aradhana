@@ -21,7 +21,7 @@ class CreateTodo extends Component {
         <div className='col-sm-10'>
           <input
             type='text'
-            className='form-control'
+            className='form-control blue'
             id='inputEmail3'
             placeholder='Add TODO here.....'
             onChange={this.onChangeTodoText}

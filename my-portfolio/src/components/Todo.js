@@ -9,7 +9,9 @@ class Todo extends Component {
           <div className='col-lg-10 offset-lg-2 col-md-10 col-sm-12 col-xs-12'>
             <CreateTodo />
           </div>
-          <TodoList />
+          {/* <div className='col-lg-10 offset-lg-2 col-md-10 col-sm-12 col-xs-12'>
+            <TodoList />
+          </div> */}
         </div>
       </div>
     );
