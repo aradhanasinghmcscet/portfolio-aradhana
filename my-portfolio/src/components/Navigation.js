@@ -4,15 +4,15 @@ import { NavLink, Link } from 'react-router-dom';
 import {
   Navbar,
   Nav,
-  Jumbotron,
-  Grid,
-  Row,
-  Col,
-  Image,
-  Button
+  // Jumbotron,
+  // Grid,
+  // Row,
+  // Col,
+  // Image,
+  // Button
 } from 'react-bootstrap';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+// import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 
 const Navigation = () => {
@@ -34,17 +34,20 @@ const Navigation = () => {
                   About
                 </NavLink>
                 <NavLink className='link-item' to='/blog'>
+                  Projects
+                </NavLink>
+                {/* <NavLink className='link-item' to='/blog'>
                   Blog
                 </NavLink>
                 <NavLink className='link-item' to='/portfolio'>
                   Portfolio
-                </NavLink>
+                </NavLink> */}
                 <NavLink className='link-item' to='/contact'>
                   Contact
                 </NavLink>
-                <NavLink className='link-item' to='/todo'>
+                {/* <NavLink className='link-item' to='/todo'>
                   ToDo List
-                </NavLink>
+                </NavLink> */}
                 {/* <NavLink>
                 <div class="sharethis-inline-follow-buttons"></div>
                 </NavLink> */}
